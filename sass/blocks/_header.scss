@@ -1,7 +1,73 @@
-.monoliza{
-   font-weight: 700;
-   font-size: 76px;
-   line-height: 76px;
-   text-align: center;
-   color: aqua;
+.top-header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 20px;
+}
+.nav-list{
+   display: flex;
+   align-items: center;
+   padding: 0px;
+   margin-left: 60px;
+}
+.res-item{
+   margin-right: 50px;
+}
+.nav-link{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #000000;
+}
+.hero-link{
+   flex-grow: 3;
+   color: #D10700;
+   border: 1px solid #D10700;
+   border-radius: 20px;
+   padding: 6px 8px; 
+   &:hover{
+      background-color: #D10700;
+      color: #fff;
+   }
+}
+.hero-item{
+   margin-left: 50px;
+}
+
+.burger-btn{
+   display: none;
+   width: 30px;
+   border: none;
+   background-color: transparent;
+}
+
+@media only screen and (max-width: 565px) {
+   .burger-btn{
+      display: inline-block;
+      font-size: 20px;
+   }
+   .nav-list{
+      display: none;
+   }
+
+   .open-nav{
+      position: absolute;
+      margin-left: 0px;
+      width: 100%;
+      max-width: 100%;
+      padding: 60px 50px;
+      text-align: center;
+      height: 100%;
+      top: 71px;
+      right: 0px;
+      display: block;
+      background-color: #fff;
+      transition: all .5s;
+      z-index: 1;
+   }
+   .nav-item{
+      margin: 0px auto;
+      margin-top: 30px;
+      // margin-right: 0px;
+   }
 }

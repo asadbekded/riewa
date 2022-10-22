@@ -1,0 +1,54 @@
+.centre-content{
+   width: 100%;
+   max-width: 900px;
+   margin: 0px auto;
+   text-align: center;
+   margin-top: 100px;
+}
+.centre-title{
+   font-weight: 700;
+   font-size: 76px;
+   line-height: 76px;
+   color: #222222;
+   margin: 0px;
+   margin-bottom: 20px;
+}
+.centre-text{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   color: #000000;
+   margin: 0px;
+}
+.text-box{
+   width: 100%;
+   max-width: 634px;
+   text-align: center;
+   margin: 0px auto;
+}
+
+@media only screen and (max-width: 565px) {
+   .centre-content{
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+      margin-top: 55px;
+   }
+   .centre-title{
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 34px;
+      color: #222222;
+      margin: 0px;
+      margin-bottom: 5px;
+   }
+   .centre-text{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #000000;
+      margin: 0px;
+   }
+}

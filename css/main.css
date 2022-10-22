@@ -1,3 +1,39 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/montserrat-v25-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v25-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-500 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/montserrat-v25-latin-500.woff2") format("woff2"), url("../fonts/montserrat-v25-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-600 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/montserrat-v25-latin-600.woff2") format("woff2"), url("../fonts/montserrat-v25-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/montserrat-v25-latin-700.woff2") format("woff2"), url("../fonts/montserrat-v25-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -354,6 +390,7 @@ html {
 }
 
 body {
+  font-family: 'Montserrat', 'Arial', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -394,7 +431,158 @@ main {
 }
 
 .container {
+  width: 100%;
+  max-width: 1260px;
   margin: 0px auto;
   padding: 0px 20px;
+}
+
+.top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  margin-left: 60px;
+}
+
+.res-item {
+  margin-right: 50px;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.hero-link {
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+  color: #D10700;
+  border: 1px solid #D10700;
+  border-radius: 20px;
+  padding: 6px 8px;
+}
+
+.hero-link:hover {
+  background-color: #D10700;
+  color: #fff;
+}
+
+.hero-item {
+  margin-left: 50px;
+}
+
+.burger-btn {
+  display: none;
+  width: 30px;
+  border: none;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 565px) {
+  .burger-btn {
+    display: inline-block;
+    font-size: 20px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .open-nav {
+    position: absolute;
+    margin-left: 0px;
+    width: 100%;
+    max-width: 100%;
+    padding: 60px 50px;
+    text-align: center;
+    height: 100%;
+    top: 71px;
+    right: 0px;
+    display: block;
+    background-color: #fff;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    z-index: 1;
+  }
+  .nav-item {
+    margin: 0px auto;
+    margin-top: 30px;
+  }
+}
+
+.centre-content {
+  width: 100%;
+  max-width: 900px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.centre-title {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 76px;
+  color: #222222;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.centre-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin: 0px;
+}
+
+.text-box {
+  width: 100%;
+  max-width: 634px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+@media only screen and (max-width: 565px) {
+  .centre-content {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 55px;
+  }
+  .centre-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #222222;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+  .centre-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
