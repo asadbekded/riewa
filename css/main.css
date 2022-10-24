@@ -522,6 +522,12 @@ main {
     transition: all .5s;
     z-index: 1;
   }
+  .res-item {
+    margin: 0px;
+  }
+  .hero-item {
+    margin: 0px;
+  }
   .nav-item {
     margin: 0px auto;
     margin-top: 30px;
@@ -562,6 +568,9 @@ main {
 }
 
 .iframe-box {
+  width: 100%;
+  max-width: 1240px;
+  height: 555;
   margin-top: 40px;
   margin-bottom: 100px;
   border-radius: 45px;
@@ -589,6 +598,12 @@ main {
     text-align: center;
     color: #000000;
     margin: 0px;
+  }
+  .iframe-box {
+    width: 100%;
+    max-width: 340px;
+    height: 270px;
+    border-radius: 25px;
   }
 }
 
@@ -798,7 +813,7 @@ main {
     margin-top: 50px;
   }
   .footer {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */

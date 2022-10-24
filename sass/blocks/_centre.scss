@@ -28,6 +28,9 @@
    margin: 0px auto;
 }
 .iframe-box{
+   width: 100%;
+   max-width: 1240px;
+   height: 555;
    margin-top: 40px;
    margin-bottom: 100px;
    border-radius: 45px;
@@ -55,5 +58,11 @@
       text-align: center;
       color: #000000;
       margin: 0px;
+   }
+   .iframe-box{
+      width: 100%;
+      max-width: 340px;
+      height: 270px;
+      border-radius: 25px;
    }
 }
