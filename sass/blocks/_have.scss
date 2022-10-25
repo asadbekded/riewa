@@ -1,3 +1,39 @@
 .have-content{
    margin-top: 80px;
 }
+.start-box{
+   width: 100%;
+   max-width: 604px;
+   margin: 0px auto;
+   text-align: center;
+}
+.start-title{
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 104%;
+   color: #222222;
+   margin: 0px;
+   margin-bottom: 20px;
+}
+.start-text{
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 141%;
+   color: #1A1A1A;
+   margin: 0px;
+}
+
+@media only screen and (max-width: 565px) {
+   .have-content{
+      margin-top: 40px;
+   }
+   .start-box{
+      max-width: 340px;
+   }
+   .start-title{
+      font-size: 30px;
+   }
+   .start-text{
+      font-size: 17px;
+   }
+}

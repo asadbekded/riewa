@@ -604,6 +604,7 @@ main {
     max-width: 340px;
     height: 270px;
     border-radius: 25px;
+    margin-bottom: 30px;
   }
 }
 
@@ -631,6 +632,9 @@ main {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px;
 }
 
 .weather-item {
@@ -677,8 +681,74 @@ main {
   padding: 8px 86px 8px;
 }
 
+@media only screen and (max-width: 565px) {
+  .weather-list {
+    padding: 0px;
+    margin: 0px auto;
+  }
+  .weather-item {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    margin-bottom: 40px;
+  }
+  .weather-item + .weather-item {
+    margin-left: 0px;
+  }
+  .mark-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 104%;
+    text-align: center;
+    color: #222222;
+    margin: 0px;
+  }
+  .mark-box {
+    max-width: 310px;
+  }
+}
+
 .have-content {
   margin-top: 80px;
+}
+
+.start-box {
+  width: 100%;
+  max-width: 604px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.start-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 104%;
+  color: #222222;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.start-text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 141%;
+  color: #1A1A1A;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 565px) {
+  .have-content {
+    margin-top: 40px;
+  }
+  .start-box {
+    max-width: 340px;
+  }
+  .start-title {
+    font-size: 30px;
+  }
+  .start-text {
+    font-size: 17px;
+  }
 }
 
 .footer {

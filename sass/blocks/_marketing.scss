@@ -16,6 +16,8 @@
 .weather-list{
    display: flex;
    align-items: flex-start;
+   flex-wrap: wrap;
+   padding: 0px;
 }
 .weather-item{
    width: 100%;
@@ -54,4 +56,31 @@
    border: 1px solid #333;
    border-radius: 20px;
    padding: 8px 86px 8px;
+}
+
+@media only screen and (max-width: 565px) {
+   .weather-list{
+      padding: 0px;
+      margin: 0px auto;
+   }
+   .weather-item{
+      width: 100%;
+      max-width: 100%;
+      margin: 0px auto;
+      margin-bottom: 40px;
+   }
+   .weather-item + .weather-item{
+      margin-left: 0px;
+   }
+   .mark-title{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 104%; 
+      text-align: center;
+      color: #222222;
+      margin: 0px;
+   }
+   .mark-box{
+      max-width: 310px;
+   }
 }
