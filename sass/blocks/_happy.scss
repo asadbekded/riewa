@@ -1,0 +1,76 @@
+.happy-content{
+   margin-top: 70px;
+}
+.happy-title{
+   margin: 0px;
+   margin-bottom: 40px;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 66px;
+   text-align: center;
+   color: #222222;
+}
+.happy-list{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+.happy-item{
+   width: 100%;
+   max-width: 290px;
+   background-image: url("../images/girl.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+   padding: 20px;
+}
+.main-item{
+   background-image: url("../images/main2.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+.girl-item{
+   background-image: url("../images/girl2.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+.mous-item{
+   background-image: url("../images/girl3.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+.japan-item{
+   background-image: url("../images/girl4.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+.happy-box{
+   width: 100%;
+   max-width: 191px;
+   margin-top: 276px;
+}
+.name-title{
+   margin: 0px;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 100%;
+   color: #FFFFFF;
+   margin-bottom: 13px;
+}
+.happy-span{
+   display: block;
+   width: 40px;
+   height: 2px;
+   background-color: #FFFFFF;
+   margin: 0px;
+   margin-bottom: 5px;
+}
+.happy-text{
+   margin: 0px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #FFFFFF;
+}

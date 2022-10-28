@@ -1,0 +1,84 @@
+.lesson-title{
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 66px;
+   text-align: center;
+   color: #222222;
+   margin: 0px;
+   margin-top: 50px;
+   margin-bottom: 40px;
+}
+.lesson-list{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+.lesson-item{
+   width: 100%;
+   max-width: 600px;
+   border-radius: 40px;
+   background-image: url("../images/childrens.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+   padding: 30px;
+}
+.lesson-item:nth-child(2){
+   background-image: url("../images/students.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+.indi-box{
+   width: 447px;
+   margin-bottom: 268px;
+}
+.child-text{
+   display: inline-block;
+   margin: 0px;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+   color: #FFFFFF;
+   border-radius: 125px;
+   background: #ffffff4d;
+   padding: 15px 25px 15px 25px;
+}
+.child-title{
+   margin: 0px;
+   margin-top: 20px;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 110%;
+   color: #FFFFFF;
+}
+.lesson-btn{
+   width: 100%;
+   max-width: 265px;
+   background-color: transparent;
+   border: 1.5px solid #FFFFFF;
+   border-radius: 42px;
+   padding: 25px 0px 25px 0px;
+   margin-right: 5px;
+}
+.child-btn{
+   width: 100%;
+   max-width: 265px;
+   background-color: #fff;
+   border: 1.5px solid #FFFFFF;
+   border-radius: 42px;
+   padding: 25px 0px 25px 0px;
+}
+.lesson-link{
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 29px;
+   color: #FFFFFF;
+}
+.child-link{
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 29px;
+   color: #000;
+}

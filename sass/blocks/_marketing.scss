@@ -15,13 +15,17 @@
 }
 .weather-list{
    display: flex;
-   align-items: flex-start;
-   flex-wrap: wrap;
+   align-items: center;
    padding: 0px;
+   height: 100%;
+}
+.slick-arrow{
+   display: none;
 }
 .weather-item{
    width: 100%;
    max-width: 393px;
+   margin-bottom: 20px;
 }
 .weather-item + .weather-item{
    margin-left: 40px;
@@ -49,29 +53,19 @@
    margin: 0px;
 }
 .weather-link{
+   display: inline-block;
+   width: 100%;
+   max-width: 390px;
+   text-align: center;
    font-weight: 500;
    font-size: 16px;
    line-height: 29px;
    color: #000000;
    border: 1px solid #333;
    border-radius: 20px;
-   padding: 8px 86px 8px;
+   padding: 8px 0px;
 }
-
 @media only screen and (max-width: 565px) {
-   .weather-list{
-      padding: 0px;
-      margin: 0px auto;
-   }
-   .weather-item{
-      width: 100%;
-      max-width: 100%;
-      margin: 0px auto;
-      margin-bottom: 40px;
-   }
-   .weather-item + .weather-item{
-      margin-left: 0px;
-   }
    .mark-title{
       font-weight: 700;
       font-size: 30px;
