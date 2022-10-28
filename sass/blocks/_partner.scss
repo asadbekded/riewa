@@ -27,3 +27,15 @@
    list-style: none;
    margin-top: 30px;
 }
+
+@media only screen and (max-width: 565px) {
+   .partner-content{
+      margin-top: 50px;
+   }
+   .partner-title{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+      margin-bottom: 40px;
+   }
+}

@@ -632,6 +632,9 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0px;
   height: 100%;
 }
@@ -644,10 +647,6 @@ main {
   width: 100%;
   max-width: 393px;
   margin-bottom: 20px;
-}
-
-.weather-item + .weather-item {
-  margin-left: 40px;
 }
 
 .weather-title {
@@ -799,6 +798,15 @@ main {
   .start-text {
     font-size: 17px;
   }
+  .have-item {
+    padding: 36px 17px;
+    max-width: 343px;
+  }
+  .have-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 39px;
+  }
 }
 
 .lesson-title {
@@ -822,6 +830,8 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -844,7 +854,8 @@ main {
 }
 
 .indi-box {
-  width: 447px;
+  width: 100%;
+  max-width: 447px;
   margin-bottom: 268px;
 }
 
@@ -900,6 +911,58 @@ main {
   font-size: 24px;
   line-height: 29px;
   color: #000;
+}
+
+@media only screen and (max-width: 565px) {
+  .lesson-item {
+    max-width: 343px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  .indi-box {
+    max-width: 298px;
+    margin-bottom: 130px;
+    text-align: center;
+  }
+  .child-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 12px 22px;
+  }
+  .child-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .lesson-btn {
+    padding: 20px 0px;
+    margin-bottom: 10px;
+    max-width: 300px;
+  }
+  .child-btn {
+    padding: 20px 0px;
+    max-width: 300px;
+  }
+  .lesson-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .child-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .lesson-title {
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+  }
 }
 
 .happy-content {
@@ -996,6 +1059,18 @@ main {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 565px) {
+  .happy-content {
+    margin-top: 50px;
+  }
+  .happy-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 20px;
+  }
+}
+
 .ilts-content {
   margin-top: 90px;
 }
@@ -1057,6 +1132,21 @@ main {
   line-height: 22px;
 }
 
+@media only screen and (max-width: 565px) {
+  .ilts-content {
+    margin-top: 50px;
+  }
+  .ilts-box {
+    max-width: 343px;
+  }
+  .ilts-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 20px;
+  }
+}
+
 .partner-content {
   margin-top: 90px;
   margin-bottom: 46px;
@@ -1100,6 +1190,18 @@ main {
   padding: 0px;
   list-style: none;
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 565px) {
+  .partner-content {
+    margin-top: 50px;
+  }
+  .partner-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 40px;
+  }
 }
 
 .form-content {
@@ -1206,7 +1308,46 @@ main {
 }
 
 .maps-ifram {
+  width: 100%;
+  max-width: 1240px;
+  height: 530px;
   border-radius: 30px;
+}
+
+@media only screen and (max-width: 565px) {
+  .form-content {
+    display: block;
+    padding: 50px 16px;
+  }
+  .our-box {
+    max-width: 344px;
+    margin-bottom: 50px;
+  }
+  .our-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .our-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .mail-box {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .mail-inp {
+    width: 100%;
+    max-width: 522px;
+    margin-bottom: 10px;
+  }
+  .maps-ifram {
+    width: 100%;
+    max-width: 400px;
+    height: 468px;
+    border-radius: 30px;
+  }
 }
 
 .footer {
@@ -1416,6 +1557,9 @@ main {
   }
   .footer {
     padding-bottom: 10px;
+  }
+  .site-footer {
+    margin-top: 50px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -45,3 +45,17 @@
    font-size: 16px;
    line-height: 22px;
 }
+@media only screen and (max-width: 565px) {
+   .ilts-content{
+      margin-top: 50px;
+   }
+   .ilts-box{
+      max-width: 343px;
+   }
+   .ilts-title{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+      margin-bottom: 20px;
+   }
+}

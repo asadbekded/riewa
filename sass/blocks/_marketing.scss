@@ -16,6 +16,7 @@
 .weather-list{
    display: flex;
    align-items: center;
+   justify-content: space-between;
    padding: 0px;
    height: 100%;
 }
@@ -26,9 +27,6 @@
    width: 100%;
    max-width: 393px;
    margin-bottom: 20px;
-}
-.weather-item + .weather-item{
-   margin-left: 40px;
 }
 .weather-title{
    margin: 0px;
