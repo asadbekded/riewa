@@ -1,0 +1,94 @@
+.trend-content{
+   margin: 0px auto;
+   width: 100%;
+   max-width: 1030px;
+   margin-top: 90px;
+}
+.trend-title{
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 44px;
+   margin: 0px;
+   margin-bottom: 20px;
+   color: #000000;
+}
+.trend-text{
+   margin: 0px;
+   margin-top: 30px;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 158%;
+   color: #000000;
+}
+
+// trend section end 
+.more-content{
+   margin: 0px auto;
+   width: 100%;
+   max-width: 1030px;
+   margin-top: 90px;
+}
+.more-box{
+   margin-top: 20px;
+   padding: 56px 40px;
+   background-color: #F5F7F9;
+   border-radius: 24px;
+}
+.more-text{
+   margin: 0px;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 146%;
+   color: #D10700;
+}
+
+.more-list{
+   margin: 0px;
+   margin-top: 30px;
+   padding: 0px;
+   padding-left: 10px;
+}
+.more-item{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 142%;
+   color: #000000;
+   list-style: inside;
+}
+.more-item + .more-item{
+   margin-top: 40px;
+}
+@media only screen and (max-width: 565px) {
+   .trend-content{
+      margin-top: 50px;
+   }
+   .trend-title{
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 37px;
+   }
+   .trend-text{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+   }
+   .more-content{
+      margin-top: 50px;
+   }
+   .more-box{
+      padding: 20px 15px;
+   }
+   .more-text{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+   }
+   .more-item{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+   }
+   .more-item + .more-item{
+      margin-top: 20px;
+   }
+}
