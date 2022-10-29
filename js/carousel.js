@@ -30,4 +30,3 @@ $('.autoplay').slick({
   arrows: false,
   rtl: true,
 });
-
