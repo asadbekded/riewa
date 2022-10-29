@@ -520,7 +520,7 @@ main {
     background-color: #fff;
     -webkit-transition: all .5s;
     transition: all .5s;
-    z-index: 1;
+    z-index: 2;
   }
   .res-item {
     margin: 0px;
@@ -765,6 +765,10 @@ main {
   }
   .mark-box {
     max-width: 310px;
+  }
+  .weather-item {
+    max-width: 284px;
+    margin-left: 20px;
   }
 }
 
