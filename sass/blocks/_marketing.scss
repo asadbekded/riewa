@@ -14,9 +14,11 @@
    margin: 0px;
 }
 .weather-list{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
+   margin: 0px auto !important;
+   text-align: center !important;
    padding: 0px;
    height: 100%;
 }
@@ -39,7 +41,8 @@
 .weather-box{
    width: 100%;
    max-width: 340px;
-   margin: 0px;
+   margin: 0px auto;
+   padding: 0px;
    margin-top: 12px;
    margin-bottom:  20px;
 }
@@ -63,6 +66,13 @@
    border-radius: 20px;
    padding: 8px 0px;
 }
+
+@media only screen and (max-width: 1100px) {
+   .weather-item{
+      max-width: 320px !important;
+   }
+}
+
 @media only screen and (max-width: 565px) {
    .mark-title{
       font-weight: 700;
@@ -76,7 +86,6 @@
       max-width: 310px;
    }
    .weather-item{
-      max-width: 284px;
-      margin-left: 20px;
+      max-width: 284px !important;
    }
 }

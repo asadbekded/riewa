@@ -126,6 +126,11 @@
       text-align: center;
       margin-top: 55px;
    }
+   .have-list{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
    .centre-title{
       font-weight: 600;
       font-size: 28px;
@@ -146,7 +151,7 @@
       width: 100%;
       max-width: 340px;
       height: 270px;
-      border-radius: 25px;
+      margin: 40px auto;
       margin-bottom: 30px;
    }
 }

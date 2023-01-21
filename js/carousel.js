@@ -10,19 +10,17 @@ $('.autoplay').slick({
 		  settings: {
 			 slidesToShow: 3,
 			 slidesToScroll: 3,
-			 infinite: true,
-			 dots: true
 		  }
 		},
 		{
-		  breakpoint: 600,
+		  breakpoint: 900,
 		  settings: {
 			 slidesToShow: 2,
 			 slidesToScroll: 2
 		  }
 		},
 		{
-		  breakpoint: 500,
+		  breakpoint: 680,
 		  settings: {
 			 slidesToShow: 1,
 			 slidesToScroll: 1
@@ -43,19 +41,17 @@ $('.carousel-happy').slick({
 		  settings: {
 			 slidesToShow: 3,
 			 slidesToScroll: 3,
-			 infinite: true,
-			 dots: true
 		  }
 		},
 		{
-		  breakpoint: 600,
+		  breakpoint: 800,
 		  settings: {
 			 slidesToShow: 2,
 			 slidesToScroll: 2
 		  }
 		},
 		{
-		  breakpoint: 400,
+		  breakpoint: 600,
 		  settings: {
 			 slidesToShow: 1,
 			 slidesToScroll: 1
